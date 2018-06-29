@@ -1,0 +1,27 @@
+package aula25;
+
+import pacoteteste.Animal;
+
+public class Principal {
+
+	public static void main(String[] args) {
+		
+		//instânciando o objeto - Pessoa
+		Pessoa p = new Pessoa("João da Silva Borges");
+		p.setSenhaDobanco(3461.91);
+		
+		System.out.println("Nome: ".concat(p.nome));
+		System.out.println(p.getSenhaDobanco());
+		
+		
+		
+		
+		
+		//criando o objeto Animal
+		Animal obj = new Animal();
+		obj.tipo = "Cachorro";
+		System.out.println(obj.tipo);
+
+	}
+
+}
