@@ -19,8 +19,12 @@ public class Principal {
 		
 		//criando o objeto Animal
 		Animal obj = new Animal();
-		obj.tipo = "Cachorro";
 		System.out.println(obj.tipo);
+		
+		obj.tipo = "Cachorro";
+		obj.getNumeroConta();
+		System.out.println(obj.getNumeroConta());
+		
 
 	}
 
